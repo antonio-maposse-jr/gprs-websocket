@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1579a6a9-d5b0-4912-8485-d605a8d808e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gpstracker/docs/GPRS-Data-Protocol.xls" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gpstracker/docs/GPRS-Data-Protocol.xls" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1awwQFtERxzhfoRcao0LNMeCnxX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1579a6a9-d5b0-4912-8485-d605a8d808e7" name="Default Changelist" comment="" />
+      <created>1587659946096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587659946096</updated>
+      <workItem from="1587659949144" duration="1081000" />
+      <workItem from="1587667432580" duration="15489000" />
+      <workItem from="1588949932745" duration="180000" />
+      <workItem from="1589133811294" duration="400000" />
+      <workItem from="1590748838152" duration="267000" />
+      <workItem from="1590995733036" duration="3101000" />
+      <workItem from="1602916474713" duration="697000" />
+      <workItem from="1608620189899" duration="315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="380" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1602916474732">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="380" y="269" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1602916474732" />
+  </component>
+</project>
