@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d49c59e-9e19-4bfd-bd35-0c763327b7e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devices.js" beforeDir="false" afterPath="$PROJECT_DIR$/devices.js" afterDir="false" />
-    </list>
+    <list default="true" id="8d49c59e-9e19-4bfd-bd35-0c763327b7e5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +9,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1m0RjJIvualXZ2VhT4O8aCvytvt" />
   <component name="ProjectViewState">
@@ -35,11 +33,17 @@
       <option name="presentableId" value="Default" />
       <updated>1608628655416</updated>
       <workItem from="1608628657033" duration="597000" />
-      <workItem from="1608629503951" duration="566000" />
+      <workItem from="1608629503951" duration="851000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="502" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608630912796">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="502" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.826@0.23.1440.826" timestamp="1608630912796" />
   </component>
 </project>
