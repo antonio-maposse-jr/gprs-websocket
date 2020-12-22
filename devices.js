@@ -3,6 +3,7 @@ const fs = require('fs');
 
 var mysql = require('mysql');
 
+//Database Configurations
 var con = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -11,6 +12,7 @@ var con = mysql.createConnection({
 });
 
 
+//Socket Init
 var server = gpstracker.create().listen(7000, function(){
     console.log('listening your gps trackers on port', 7000 );
 
@@ -24,6 +26,7 @@ server.trackers.on("connected", function(tracker){
         console.log(tracker.imei + " Alarm ".red);
     });
 
+    //Get Position and Update into Database
     tracker.on("position", function(position){
         var today = new Date();
         var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
@@ -51,6 +54,7 @@ server.trackers.on("connected", function(tracker){
     tracker.trackEvery(10).seconds();
 });
 
+//Date Formating
 function getFormattedDate() {
     var date = new Date();
 
@@ -58,15 +62,16 @@ function getFormattedDate() {
 
     return str;
 }
-
+// Update Location in Database
+// The Locations are saved in table cars using the values that the device send to the websocket
 function updatelocations(data, callback) {
 
-    var sql= "UPDATE buses SET latitude="+data.lat+", longitude="+data.lng+" , direction="+data.orientation+", speed="+data.speed+", status="+data.engine+", time="+data.time+" ,gps_date="+'\''+data.gps_time+'\'' +" WHERE imei="+'\''+data.imei+'\''+ "";
+    var sql= "UPDATE cars SET latitude="+data.lat+", longitude="+data.lng+" , direction="+data.orientation+", speed="+data.speed+", status="+data.engine+", time="+data.time+" ,gps_date="+'\''+data.gps_time+'\'' +" WHERE imei="+'\''+data.imei+'\''+ "";
     // console.log(sql);
 
     var timeMil = getFormattedDate();
     const line = data.imei+"$"+data.lat+"$"+data.lng+"$"+data.speed+"$"+1+"$"+timeMil+"$"+data.orientation;
-    fs.appendFile("/var/www/devices-log/locations.txt", line+"\n", function(err) {
+    fs.appendFile("locations.txt", line+"\n", function(err) {
         if(err) {
             return console.log(err);
         }
